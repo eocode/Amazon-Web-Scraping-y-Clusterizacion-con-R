@@ -1,4 +1,4 @@
-dataset <- read.csv("C:\\Users\\elias\\Desktop\\DataScience\\celulares.csv", header = TRUE)
+dataset <- read.csv("celulares.csv", header = TRUE)
 
 dataset <- data.frame(dataset)
 View(dataset)

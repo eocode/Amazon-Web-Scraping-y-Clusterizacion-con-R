@@ -1,5 +1,5 @@
 function(input, output, session) {
-  data = read.csv("C:\\Users\\elias\\Desktop\\DataScience\\celularesKmeans.csv")
+  data = read.csv("celularesKmeans.csv")
 
   # Combine the selected variables into a new data frame
   selectedData <- reactive({

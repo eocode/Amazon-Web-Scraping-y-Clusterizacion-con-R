@@ -1,5 +1,5 @@
 library(plumber)
-r = plumb("C:\\Users\\elias\\Desktop\\DataScience\\Proyecto\\celularesPlumber.R")
+r = plumb("4 - celularesPlumber.R")
 r$run(port=8000)
 
 # price     rating    reviews  questions     weight 
